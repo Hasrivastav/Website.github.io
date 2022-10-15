@@ -1,0 +1,35 @@
+
+.contact-content {
+    /* height: 395px; */
+     /* background-color: rgb(244, 238, 239);  */
+   height: 100vh;;
+    margin-top: 32px;
+    padding: 9px;
+    position:relative;
+    overflow: hidden;
+  
+   
+   
+  }
+  .contact-content::after{
+  
+    content:"";
+    top: 0;
+    
+    background-image: url(/images/blog.jpg);
+    position:absolute;
+    width:100%;
+    height:inherit;
+    opacity: 0.3 ;
+    z-index: -1;
+  }
+  .form-box input,textarea{
+    width: 44vw;
+    padding: 0px 6px;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius:  4px 4px;
+  }
+  .contact-form{
+   
+  }

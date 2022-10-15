@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-top: 23px;
+  font-family: var(--font2);
+  /* height: 74px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  height: 100%;
+   /* background-color: rgb(244, 238, 239);  */
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position:relative
+}
+.content::after{
+
+  content:"";
+  
+  background-image: url(/);
+  position:absolute;
+  width:100%;
+  height:inherit;
+  opacity: 0.3 ;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  background: black;
+  flex-direction: column;
+  
+}
+.footer a{
+  color: white
+  
+
+}
+
+.nav-left {
+  font-size: 20px;
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 17px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li a:hover {
+  color: rgb(226, 223, 232);
+}
+.btn
+ {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    /* text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap; */
+}
+
+
+
+.content-left {
+  /* width: 50%; */
+  font-family: var(--font1);
+  display: flex;
+padding:5px;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50%; */
+}
+
+.content-right img {
+  border: 2px solid;
+  border-radius: 29px;
+
+  height: 355px;
+}
+
+.homearticles{
+  padding-top:12px ;
+    /* height:455px; */
+     background-color: rgb(241, 169, 12); 
+     padding: 17px;
+     margin-top: 23px;
+
+     position: relative;
+
+
+    }
+    
+.homearticle{
+ 
+  display: flex;
+  margin: 25px
+}
+
+.homearticle img{
+  width: 300px;
+}
+.home-article-content{
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: black;
+  font-family: var(--font1);
+}
